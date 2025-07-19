@@ -8,8 +8,7 @@ from sklearn.impute import SimpleImputer
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import OneHotEncoder, StandardScaler
 
-from src.components.data_transformation import DataTransformation
-from src.components.data_transformation import DataTransformationConfig
+
 
 from src.exception import CustomException
 from src.logger import logging
@@ -127,9 +126,4 @@ class DataTransformation:
         except Exception as e:
             raise CustomException(e,sys)
 
-if __name__ == "__main__":
-    obj= DataTransformation()
-    train_data, test_data= obj.initiate_data_ingestion()
 
-    data_transformation = DataTransformation()
-    data_transformation.initiate_data_transformation(train_data,test_data)
