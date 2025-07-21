@@ -1,4 +1,4 @@
-# Student Score Predictor: End-to-End Machine Learning Project
+# Student Score Predictor: End-to-End Machine Learning Pipeline
 
 ## 📌 Project Overview
 
