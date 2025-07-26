@@ -61,4 +61,4 @@ def predict_datapoint():
 if __name__=="__main__":
     # Run the Flask application
     # debug=True should only be used during development, not in the production
-    app.run(host="0.0.0.0", debug=True)
+    app.run(host="0.0.0.0",port=5000, debug=True)
