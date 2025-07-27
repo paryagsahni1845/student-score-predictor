@@ -58,10 +58,9 @@ def predict_datapoint():
         return render_template('home.html',results=results[0])
     
 
-if __name__=="__main__":
-    # Run the Flask application
-    # debug=True should only be used during development, not in the production
+if __name__ == "__main__":
     import os
-    port = int(os.environ.get("PORT", 5000))
+    port = int(os.environ.get("PORT", 10000))  # fallback in case PORT is not set
     app.run(host="0.0.0.0", port=port)
+
 
