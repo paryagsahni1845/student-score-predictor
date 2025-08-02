@@ -93,7 +93,7 @@ Build a regression model that can predict a student's math score based on input 
   - `logging`, `sys`, `os` (system handling)
 - **Deployment Tools**:
   - Docker (for containerization)
-  - AWS EC2 + ECR (for deployment)
+  - Render (for deployment)
 
 ---
 
